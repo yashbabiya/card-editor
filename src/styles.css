@@ -1,0 +1,181 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Roboto&display=swap");
+body {
+  text-align: center;
+  font-family: "Josefin Sans", sans-serif;
+}
+.App {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 100px;
+  min-width: 900px;
+  height: 450px;
+  display: flex-box;
+}
+.rect {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  border-radius: 20px;
+  box-shadow: 20px 20px 20px 0px grey;
+
+  display: -webkit-flex;
+}
+.Edit {
+  width: 50%;
+  text-align: left;
+  background: rgb(38, 65, 62);
+  border-radius: 20px 0px 0px 20px;
+  color: white;
+}
+.View {
+  width: 50%;
+  transition: 1s;
+  border-radius: 0px 20px 20px 0px;
+  color: white;
+}
+.View:hover {
+  width: 60%;
+  transition: 0.5s;
+}
+
+.Edit {
+  padding-left: 1%;
+  padding-top: 2%;
+}
+.inedit {
+  margin: 20%;
+}
+.inedit input {
+  outline: none;
+  border: none;
+  height: 25px;
+  width: 75%;
+  margin-bottom: 20px;
+  font-family: "Josefin Sans", sans-serif;
+  size: 20px;
+}
+.inedit textarea {
+  outline: none;
+  border: none;
+  height: 100px;
+  width: 100%;
+  font-family: "Josefin Sans", sans-serif;
+  size: 20px;
+}
+.inedit span {
+  size: 20px;
+  padding-top: 10px;
+}
+.inedit button {
+  height: 30px;
+  width: 100px;
+  border-radius: 5px 5px 5px 5px;
+  background: grey;
+  border: none;
+  outline: none;
+}
+#td {
+  height: 10px;
+  width: 47%;
+  border-radius: 0px 10px 10px 0px;
+  border: none;
+  outline: none;
+  margin-top: -0px;
+  background-color: rgb(13, 20, 20);
+}
+#tl {
+  height: 10px;
+  width: 50%;
+  border: none;
+  outline: none;
+  background-color: rgb(199, 193, 831);
+}
+button:hover {
+  cursor: pointer;
+}
+
+#vvv {
+  margin-left: -10%;
+}
+.insta {
+  padding-top: 1.5%;
+  margin-left: 8%;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  height: 400px;
+
+  font-family: "Josefin Sans", sans-serif;
+}
+.top {
+  display: flex;
+  height: 30px;
+  width: 250px;
+}
+.lefttop {
+  text-align: left;
+  padding-left: 3%;
+  width: 50%;
+  color: gray;
+}
+.righttop {
+  text-align: right;
+  padding-right: 4%;
+  padding-top: 4%;
+
+  align-self: right;
+  width: 50%;
+  display: flex-box;
+}
+.leftbt {
+  text-align: left;
+  padding-left: 3%;
+  width: 50%;
+  padding-top: 2%;
+}
+.rightbt {
+  text-align: right;
+  padding-right: 3%;
+  padding-top: 2%;
+
+  align-self: right;
+  width: 50%;
+  display: flex-box;
+}
+span {
+  padding-right: 2%;
+}
+.btm {
+  display: flex;
+}
+.type {
+  font-size: 11px;
+  text-align: left;
+  padding-left: 3%;
+  font-family: "Josefin Sans", sans-serif;
+}
+input {
+  border: none;
+  padding-bottom: 2%;
+  color: gray;
+}
+.bottom {
+  color: gray;
+  text-align: left;
+  padding-left: 3%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.top {
+  height: 20px;
+  size: 15px;
+}
+.centertop {
+  text-align: center;
+  padding-left: 20px;
+  font-family: "Josefin Sans", sans-serif;
+}
