@@ -171,11 +171,18 @@ input {
 }
 
 .top {
-  height: 20px;
+  height: 30px;
   size: 15px;
 }
 .centertop {
   text-align: center;
   padding-left: 20px;
   font-family: "Josefin Sans", sans-serif;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  padding-top:5%;
+}
+.centertop span{
+  margin-left:10%;
 }
