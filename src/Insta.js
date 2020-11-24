@@ -66,6 +66,7 @@ export default function ImgMediaCard(props) {
         <Typography gutterBottom variant="h5" component="h2">
           <div className="top">
             <div className="centertop">
+            <AccountCircleIcon/>
               <span>{props.name}</span>
             </div>
           </div>
